@@ -1,0 +1,12 @@
+body{
+    display: grid;
+    padding-top: 20vh;
+    display: grid;
+    place-items: center;
+}
+
+#results{
+    text-align: center;
+    padding: 5vh;
+    
+}

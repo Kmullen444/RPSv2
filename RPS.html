@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock, Paper, Scissors</title>
+    <link rel='stylesheet' href="stylesheet.css">
 </head>
+
 <body>
+    <h1>
+        Rock,Paper,Scissors
+    </h1>
+    <p>Choose your weapon! First one to five, wins! Good luck!</p>
     <div class="game">
         <button class="choice" id="Rock">Rock</button>
         <button class="choice" id="Paper">Paper</button>
         <button class="choice" id="Scissors">Scissors</button>
     </div>
-    <div class="gameResults"></div>
-    <div class="win"></div>
-    <div class="lose"></div>
-    <div class="tie"></div> 
+    <div id="results">
+        <div id="gameResults"></div>
+        <div id="win"></div>
+        <div id="lose"></div>
+        <div id="rounds"></div>
+    </div>
+    <button id="reset">Restart</button>
     <script src="RSPv2.js"></script>
 </body>
+
 </html>
